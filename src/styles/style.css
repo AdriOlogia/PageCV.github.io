@@ -105,6 +105,12 @@ nav{
   align-items: center;
   min-height: 100vh;
 }
+@media screen and (max-width: 576px)  {
+    .content-section-1-1,
+    .content-section-1-2{
+      min-height: 40vh;
+    }
+}
 
 /* section 2 */
 .section-2{
@@ -169,6 +175,15 @@ nav{
 }
 .carousel-control-prev{
   left: 15px;
+}
+
+@media screen and (max-width: 570px) {
+  .carousel-item.active, .carousel-item{
+    min-height: 80vh;
+  }
+  .footer-content-2 ul{
+    padding-left: 0;
+  }
 }
 
 /* footer */

@@ -46,6 +46,10 @@ h1 {
 .foto {
   max-width: 60%;
   height: auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(33,33,33,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(33,33,33,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(33,33,33,0.75);
 }
 
 /* navbar */
@@ -83,9 +87,14 @@ nav{
   background-color: var(--Color-GreenPage) !important;
   border-color: var(--Color-GreenPage) !important;
 }
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
-  color: var(--Color-LightGray);
-  border-bottom: 2px solid var(--Color-LightGreenPage);
+
+@media screen and (max-width: 576px) {
+  .navbar-collapse{
+    background-color: var(--Color-LightBlack);
+  }
+  .hiddenbtn{
+    transition: 0.4s;
+  }
 }
 
 /* section 1 */
@@ -136,6 +145,9 @@ nav{
   align-items: center;
   height: 200px;
   background-color: var(--Color-LightBlack);
+  box-shadow: 10px 10px 5px 0px rgba(33,33,33,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(33,33,33,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(33,33,33,0.75);
 }
 .cards img{
   width: 100px;
@@ -179,7 +191,7 @@ nav{
 
 @media screen and (max-width: 570px) {
   .carousel-item.active, .carousel-item{
-    min-height: 80vh;
+    min-height: 95vh;
   }
   .footer-content-2 ul{
     padding-left: 0;

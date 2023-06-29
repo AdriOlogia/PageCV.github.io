@@ -151,6 +151,10 @@ nav{
 }
 .cards img{
   width: 100px;
+  transition: all 0.5s ease;
+}
+.cards img:hover{
+  transform: rotateY(360deg);
 }
 .section-3{
   min-height: 80vh;

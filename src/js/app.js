@@ -1,4 +1,4 @@
-console.log("estoy aqui")
+
 window.onscroll = () => scrollFunction();
 const scrollFunction = () => {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {

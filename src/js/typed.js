@@ -1,5 +1,5 @@
 var typed = new Typed('#element', {
-    strings: ['Desarrollador Web', 'Programador Frontend', 'Web Developer', 'Devel'],
+    strings: ['Desarrollador Web', 'Programador Front-end', 'Web Developer', 'Developer Front-end'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,

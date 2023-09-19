@@ -193,6 +193,21 @@ nav{
   left: 15px;
 }
 
+/* section 5 */
+.section-5{
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-5 .card{
+  background-color: transparent;
+  border: none;
+}
+.section-5 .card img{
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 570px) {
   .carousel-item.active, .carousel-item{
     min-height: 95vh;

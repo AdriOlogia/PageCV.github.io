@@ -46,6 +46,10 @@
               <li class="nav-item">
                 <a class="nav-link" href="#section-3">Habilidades</a>                
               </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-5">Certificados</a>                
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#section-4">Experiencia</a>
               </li>
@@ -155,6 +159,41 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!-- section 5 -->
+      <section id="section-5" class="section-5">
+        <div class="container">
+          <h1 class="mb-3">Certificados</h1>
+            <div class="row justify-content-between">
+
+              <div class="certificado col-lg-4 mb-2">
+                <div class="card" style="height: 25em;">
+                  <img src="./src/assests/img/certificado-javascript.png" alt="javascript">
+                  <div class="card-body">
+                    <h5 class="card-title">Certificado Desarrolador Avanzado</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="certificado col-lg-4 mb-2">
+                <div class="card" style="height: 25em;">
+                  <img src="./src/assests/img/certificado-react.png" alt="react">
+                  <div class="card-body">
+                    <h5 class="card-title">Reactjs Avanzado</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="certificado col-lg-4 mb-2">
+                <div class="card" style="height: 25em;">
+                  <img src="./src/assests/img/certificado-typescript.png" alt="typescript">
+                  <div class="card-body">
+                    <h5 class="card-title">Master en Typescript. Javascript Moderno</h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
         </div>
       </section>
       
@@ -294,6 +333,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   <!-- scroll reveal -->
   <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- reveal -->
   <script>
     const fotoHome = document.querySelector(".foto")
     const node_list_p = document.querySelectorAll("p")
@@ -303,6 +343,7 @@
     const node_footer = document.querySelector("#footer")
     const node_content_section3 = document.querySelector(".content-section-3")
     const node_img_section3 = node_content_section3.querySelectorAll("img")
+    const node_img_certificado = document.querySelectorAll(".card-title")
     
     ScrollReveal().reveal(node_list_h1, { 
       delay: 700,
@@ -353,6 +394,13 @@
 
     });
     ScrollReveal().reveal(node_footer, { 
+      delay: 500,
+      reset: true,
+      easing: 'ease-in',
+      origin: 'left'
+
+    });
+    ScrollReveal().reveal(node_img_certificado, { 
       delay: 500,
       reset: true,
       easing: 'ease-in',

@@ -1,38 +1,38 @@
 {
   "javascript": {
-    "img": "../assests/img/javascript.png"
+    "img": "./src/assests/img/javascript.png"
   },
   "React": {
-    "img": "../assests/img/react.png"
+    "img": "./src/assests/img/react.png"
   },
   "typescript": {
-    "img": "../assests/img/typescript.png"
+    "img": "./src/assests/img/typescript.png"
   },
   "node": {
-    "img": "../assests/img/node.png"
+    "img": "./src/assests/img/node.png"
   },
   "git": {
-    "img": "../assests/img/git.png"
+    "img": "./src/assests/img/git.png"
   },
   "redux": {
-    "img": "../assests/img/redux.png"
+    "img": "./src/assests/img/redux.png"
   },
   "MySQL": {
-    "img": "../assests/img/mysql.png"
+    "img": "./src/assests/img/mysql.png"
   },
   "CSS": {
-    "img": "../assests/img/html-css.png"
+    "img": "./src/assests/img/html-css.png"
   },
   "MaterialUI": {
-    "img": "../assests/img/materialui.png"
+    "img": "./src/assests/img/materialui.png"
   },
   "Bootstrap": {
-    "img": "../assests/img/bootstrap.png"
+    "img": "./src/assests/img/bootstrap.png"
   },
   "SASS": {
-    "img": "../assests/img/sass.png"
+    "img": "./src/assests/img/sass.png"
   },
   "Docker": {
-    "img": "../assests/img/docker.png"
+    "img": "./src/assests/img/docker.png"
   }
 }
